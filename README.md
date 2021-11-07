@@ -8,27 +8,33 @@
 <br><br>The <b>tiny-slcan</b> sketch is slcan compatible software but the serial chip on the arduino boards I use will only run at 500000bps.
 <br><br>If you use the following CP2102 serial adapter, pressing H will give you the bash script to allow you to start slcand under linux.
 https://www.ebay.co.uk/itm/401062572142
-
-<br><b>Schematic</b>
-![PCB Schematic](Schematic_nano-can-pcb.png)
-Note:
-<br><b>Arduino Nano</b> goes on the top with the URL on, <b>the square at one end denote the position of the USB connector</b>.
-![Arduino Nano](arduino-nano.jpg)
-<br><b>MCP2515 Module</b> goes on the bottom but <b>DO NOT</b> solder the Terminator Jumper or CAN pin headers to the PCB
-<br>You may require a jumper on the Terminator resistor
-<br>To solder the CAN module to the board, add extra solder to the back of the pins, then heat the pins and push through so that the pins are on the rear, then remove the plastic pin spacer left on the top and add extra solder to the pins. 
-![MCP2515](mcp2515.JPG)
-<br>L goes to OBD2 pin 14
-<br>H goes to OBD2 pin 6
-#### The PCB may look slightly different to the ones shown in this file, white square indicates the USB end of Nano.
-<br><b>Completed Top</b><br>
-![Completed TOP](top-complete.jpg)
-<br><b>Completed Bottom</b><br>
-![Completed BOTTOM](bottom-complete.jpg)
-<br><b>OBD2 connector</b><br>
-![OBD2 connector](obd2-connector.jpg)
-#### The PCB may look slightly different to the ones shown in this file, white square indicates the USB end of Nano.
-<br><b>PCB Top</b><br>
-![PCB TOP](top-gerber.JPG)
-<br><b>PCB Bottom</b><br>
-![PCB BOTTOM](bottom-gerber.JPG)
+<br><br>There are 4 PCBs.
+#### tiny-can PCB
+![tiny-can pcb schematic](Schematic_tiny-can-pcb.png)
+<br>Small PCB with Processor/CAN controller/transceiver<br>
+![tiny-can pcb top](tiny-can-pcb-top.png)
+<br>Small PCB with Processor/CAN controller/transceiver TOP<br>
+![tiny-can pcb bottom](tiny-can-pcb-bottom.png)
+<br>Small PCB with Processor/CAN controller/transceiver BOTTOM<br>
+#### tiny-can Power only PCB (can be used for implant on OBD2 port
+![tiny-can Power only pcb schematic](Schematic_power-obd2.png)
+<br>Small PCB with Power circuit<br>
+![tiny-can pcb top](power-only-top.png)
+<br>Small PCB with Power circuit TOP<br>
+![tiny-can pcb bottom](power-only-bottom.png)
+<br>Small PCB with Power circuit BOTTOM<br>
+#### tiny-can Power and Serial PCB (used with slcan sketch for cheap CAN adapter)
+![tiny-can pcb top](power+serial-top.png)
+<br>Small PCB with Power and Serial circuit TOP<br>
+![tiny-can pcb bottom](power+serial-bottom.png)
+<br>Small PCB with Power and Serial BOTTOM<br>
+#### tiny-can plug PCB, fits inside a J1942 Male Plug
+![tiny-can plug pcb schematic](Schematic_tiny-can-plug-pcb.png)
+<br>Small PCB with Processor/CAN controller/transceiver and Serial header<br>
+![tiny-can plug pcb top](tiny-can-plug-pcb-top.png)
+<br>Small PCB with Processor/CAN controller/transceiver and Serial header TOP<br>
+![tiny-can plug pcb bottom](tiny-can-plug-pcb-bottom.png)
+<br>Small PCB with Processor/CAN controller/transceiver and Serial header BOTTOM<br>
+<br>Notes for connecting to OBD2 plug.
+<br>CAN L goes to OBD2 pin 14
+<br>CAN H goes to OBD2 pin 6
