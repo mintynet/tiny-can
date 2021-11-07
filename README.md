@@ -1,14 +1,13 @@
 # tiny-can
-## If you would like a nano-can PCB feel free to contact me on Twitter @mintynet, I will send if you cover the cost of postage.
-<br>This repository has the arduino code for use with tiny can PCB.
+## If you would like a tiny-can PCB feel free to contact me on Twitter @mintynet, I will send if you cover the cost of postage.
+<br>This repository has the arduino code for use with tiny-can PCBs.
 <br>This was created as a cheap device for people to get into car hacking.
 <br><br><b>I take no responsibility for any issues caused if using either the hardware or the code</b>
 <br><br>Requires the use of the following Arduino library
 <br><br>https://github.com/coryjfowler/MCP_CAN_lib
-<br><br>The <b>tiny-slcan</b> sketch is slcan compatible software but the serial chip on the arduino boards I use will only run at 500000bps
-
-<br><b>EASY EDA PCB Design files</b>
-https://easyeda.com/minty2017/nano-can-2019
+<br><br>The <b>tiny-slcan</b> sketch is slcan compatible software but the serial chip on the arduino boards I use will only run at 500000bps.
+<br><br>If you use the following CP2102 serial adapter, pressing H will give you the bash script to allow you to start slcand under linux.
+https://www.ebay.co.uk/itm/401062572142
 
 <br><b>Schematic</b>
 ![PCB Schematic](Schematic_nano-can-pcb.png)
