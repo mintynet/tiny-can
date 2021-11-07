@@ -16,7 +16,7 @@ https://www.ebay.co.uk/itm/401062572142
 <br>Small PCB with Processor/CAN controller/transceiver TOP<br>
 ![tiny-can pcb bottom](tiny-can-pcb-bottom.png)
 <br>Small PCB with Processor/CAN controller/transceiver BOTTOM<br>
-#### tiny-can Power only PCB (can be used for implant on OBD2 port
+#### tiny-can Power only PCB (can be used for implant on OBD2 port)
 ![tiny-can Power only pcb schematic](Schematic_power-obd2.png)
 <br>Small PCB with Power circuit<br>
 ![tiny-can pcb top](power-only-top.png)
@@ -28,7 +28,7 @@ https://www.ebay.co.uk/itm/401062572142
 <br>Small PCB with Power and Serial circuit TOP<br>
 ![tiny-can pcb bottom](power+serial-bottom.png)
 <br>Small PCB with Power and Serial BOTTOM<br>
-#### tiny-can plug PCB, fits inside a J1942 Male Plug
+#### tiny-can plug PCB (fits inside a J1942 Male Plug)
 ![tiny-can plug pcb schematic](Schematic_tiny-can-plug-pcb.png)
 <br>Small PCB with Processor/CAN controller/transceiver and Serial header<br>
 ![tiny-can plug pcb top](tiny-can-plug-pcb-top.png)
