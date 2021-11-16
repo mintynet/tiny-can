@@ -25,11 +25,17 @@ https://www.ebay.co.uk/itm/401062572142
 <br>Small PCB with Power circuit TOP<br>
 ![tiny-can pcb bottom](pics/power-only-bottom.png)
 <br>Small PCB with Power circuit BOTTOM<br>
+![tiny-can-implant-front](photos/tiny-can-implant-front.jpg)
+![tiny-can-implant-rear](photos/tiny-can-implant-rear.jpg)
+![tiny-can-implant-side](photos/tiny-can-implant-side.jpg)
 #### tiny-can Power and Serial PCB (used with slcan sketch for cheap CAN adapter)
 ![tiny-can pcb top](pics/power+serial-top.png)
 <br>Small PCB with Power and Serial circuit TOP<br>
 ![tiny-can pcb bottom](pics/power+serial-bottom.png)
 <br>Small PCB with Power and Serial BOTTOM<br>
+![tiny-slcan-front](photos/tiny-slcan-front.jpg)
+![tiny-slcan-rear](photos/tiny-slcan-rear.jpg)
+![tiny-slcan-side](photos/tiny-slcan-side.jpg)
 #### tiny-can plug PCB (fits inside a J1942 Male Plug)
 ![tiny-can plug pcb schematic](pics/Schematic_tiny-can-plug-pcb.png)
 <br>Small PCB with Processor/CAN controller/transceiver and Serial header<br>
@@ -37,6 +43,10 @@ https://www.ebay.co.uk/itm/401062572142
 <br>Small PCB with Processor/CAN controller/transceiver and Serial header TOP<br>
 ![tiny-can plug pcb bottom](pics/tiny-can-plug-pcb-bottom.png)
 <br>Small PCB with Processor/CAN controller/transceiver and Serial header BOTTOM<br>
+![tiny-can-plug-front](photos/tiny-can-plug-front.jpg)
+![tiny-can-plug-rear](photos/tiny-can-plug-rear.jpg)
+![tiny-can-plug-front-shell](photos/tiny-can-plug-front-shell.jpg)
+![tiny-can-plug-rear-shell](photos/tiny-can-plug-rear-shell.jpg)
 <br>Notes for connecting to OBD2 plug.
 <br>CAN L goes to OBD2 pin 14
 <br>CAN H goes to OBD2 pin 6
