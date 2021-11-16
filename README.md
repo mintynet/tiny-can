@@ -12,30 +12,30 @@ http://www.technoblogy.com/show?2OCH
 https://www.ebay.co.uk/itm/401062572142
 <br><br>There are 4 PCBs.
 #### tiny-can PCB
-![tiny-can pcb schematic](Schematic_tiny-can-pcb.png)
+![tiny-can pcb schematic](pics/Schematic_tiny-can-pcb.png)
 <br>Small PCB with Processor/CAN controller/transceiver<br>
-![tiny-can pcb top](tiny-can-pcb-top.png)
+![tiny-can pcb top](pics/tiny-can-pcb-top.png)
 <br>Small PCB with Processor/CAN controller/transceiver TOP<br>
-![tiny-can pcb bottom](tiny-can-pcb-bottom.png)
+![tiny-can pcb bottom](pics/tiny-can-pcb-bottom.png)
 <br>Small PCB with Processor/CAN controller/transceiver BOTTOM<br>
 #### tiny-can Power only PCB (can be used for implant on OBD2 port)
-![tiny-can Power only pcb schematic](Schematic_power-obd2.png)
+![tiny-can Power only pcb schematic](pics/Schematic_power-obd2.png)
 <br>Small PCB with Power circuit<br>
-![tiny-can pcb top](power-only-top.png)
+![tiny-can pcb top](pics/power-only-top.png)
 <br>Small PCB with Power circuit TOP<br>
-![tiny-can pcb bottom](power-only-bottom.png)
+![tiny-can pcb bottom](pics/power-only-bottom.png)
 <br>Small PCB with Power circuit BOTTOM<br>
 #### tiny-can Power and Serial PCB (used with slcan sketch for cheap CAN adapter)
-![tiny-can pcb top](power+serial-top.png)
+![tiny-can pcb top](pics/power+serial-top.png)
 <br>Small PCB with Power and Serial circuit TOP<br>
-![tiny-can pcb bottom](power+serial-bottom.png)
+![tiny-can pcb bottom](pics/power+serial-bottom.png)
 <br>Small PCB with Power and Serial BOTTOM<br>
 #### tiny-can plug PCB (fits inside a J1942 Male Plug)
-![tiny-can plug pcb schematic](Schematic_tiny-can-plug-pcb.png)
+![tiny-can plug pcb schematic](pics/Schematic_tiny-can-plug-pcb.png)
 <br>Small PCB with Processor/CAN controller/transceiver and Serial header<br>
-![tiny-can plug pcb top](tiny-can-plug-pcb-top.png)
+![tiny-can plug pcb top](pics/tiny-can-plug-pcb-top.png)
 <br>Small PCB with Processor/CAN controller/transceiver and Serial header TOP<br>
-![tiny-can plug pcb bottom](tiny-can-plug-pcb-bottom.png)
+![tiny-can plug pcb bottom](pics/tiny-can-plug-pcb-bottom.png)
 <br>Small PCB with Processor/CAN controller/transceiver and Serial header BOTTOM<br>
 <br>Notes for connecting to OBD2 plug.
 <br>CAN L goes to OBD2 pin 14
