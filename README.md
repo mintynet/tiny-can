@@ -47,6 +47,6 @@ https://www.ebay.co.uk/itm/401062572142
 ![tiny-can-plug-rear](photos/tiny-can-plug-rear.jpg)
 ![tiny-can-plug-front-shell](photos/tiny-can-plug-front-shell.jpg)
 ![tiny-can-plug-rear-shell](photos/tiny-can-plug-rear-shell.jpg)
-<br>Notes for connecting to OBD2 plug.
+<br><br>Notes for connecting to OBD2 plug.
 <br>CAN L goes to OBD2 pin 14
 <br>CAN H goes to OBD2 pin 6
