@@ -313,14 +313,6 @@ void pars_slcancmd(char *buf)
         Serial.print(F("\tOFF"));
       }
       Serial.println();
-      Serial.println();
-      Serial.println("-----EXAMPLES for 208-----");
-      Serial.println("t0f68000007b1a0000000\t31337 odometer");
-      Serial.println("t0b6800001e0000000000\t50mph speedo");
-      Serial.println("t0b687e00000000000000\t4000rpm revcounter");
-      Serial.println("t2606800000000000\tchange to kmh");
-      Serial.println("t2606ffffffffffff\tchange to mph");
-      Serial.println();
       slcan_nack();
       break;
     default:
