@@ -212,6 +212,7 @@ void pars_slcancmd(char *buf)
       slcan_nack();
       break;
     case 'H':                                   // (NOT SPEC) CAN UTILS INIT SCRIPT
+      Serial.println(F("THIS WORKS IN ARDUINO IDE"));
       Serial.println(F("stty -F /dev/ttyUSB0 speed 500000 raw"));
       Serial.println(F("stty -F /dev/ttyUSB0 speed 500000 raw"));
       Serial.println(F("echo 'C\r' > /dev/ttyUSB0"));
@@ -510,3 +511,4 @@ void loop()
   //PORTA.OUTTGL = PIN6_bm;
   //send_canmsg("t0b687e00000000000000\0",false,false);
 } //loop()
+
